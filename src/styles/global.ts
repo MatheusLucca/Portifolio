@@ -18,9 +18,12 @@ export const GlobalStyle = createGlobalStyle`
     --gray-850: #1f2729;
     --gray-900: #121214;
 
+    
 
     --cyan-500: #61dafb;
     --yellow-500: #eba417;
+
+    --blue-600: #2B6CB0;
   }
   * {
     margin: 0;
@@ -38,6 +41,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: var(--gray-900);
     -webkit-font-smoothing: antialiased;
+    height: 100%;
   }
   body, input, textarea, button{
     font-family: 'Roboto', sans-serif;
