@@ -49,9 +49,9 @@ export const Icons = styled.div`
             
         }
         &:hover{
-            filter: brightness(0.8);
-            background-color: red;
+            background-color: var(--blue-600);
             width: 12rem;
+            
             span{
                 visibility: visible;
                 transition: visibility 90ms;

@@ -18,12 +18,14 @@ export const GlobalStyle = createGlobalStyle`
     --gray-850: #1f2729;
     --gray-900: #121214;
 
-    
+    --purple-400: #9F7AEA;
 
     --cyan-500: #61dafb;
     --yellow-500: #eba417;
 
     --blue-600: #2B6CB0;
+
+    --purple-700: #553C9A;
   }
   * {
     margin: 0;

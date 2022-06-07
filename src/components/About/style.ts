@@ -47,7 +47,6 @@ export const Text = styled.div`
     }
     a{
         background-color: var(--blue-600);
-        display: inline-block;
         margin-top: 1.5rem;
         width: 10rem;
         height: 3rem;
