@@ -3,8 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
 
     width: 100%;
-    height: calc(90vh - 5rem);
-    
+    height: calc(100vh - 5rem);
     padding: 3rem 8rem;
     
     background: var(--gray-850);
@@ -14,6 +13,7 @@ export const Container = styled.section`
 `
 
 export const Content = styled.div`
+    margin-top: 2rem;
     display: flex;
     max-width: 1120px;
     gap: 10rem;
