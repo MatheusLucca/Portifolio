@@ -66,13 +66,13 @@ export const Container = styled.li`
             font-weight: 900;
             
 
-            color: var(--yellow-500);
+            color: var(--purple-400);
         }
         .description{
             font-size: 2.0rem;
             font-weight: 700;
 
-            color: var(--purple-700);
+            color: var(--purple-400);
         }
 
         transition: all 0.4s;

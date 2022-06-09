@@ -18,10 +18,10 @@ export const Content = styled.div`
             font-size: 1.7rem;
             font-weight: 900;
             letter-spacing: 0.1rem;
-            color: var(--yellow-500);
+            color: var(--cyan-500);
             
             span{
-                color: var(--red);
+                color: var(--purple-400);
             }
             
         }

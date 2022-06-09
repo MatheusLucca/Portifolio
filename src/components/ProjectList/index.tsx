@@ -28,6 +28,7 @@ export function ProjectList() {
             <ul>
                 <ProjectItem project={project} />
                 <ProjectItem project={project1} />
+                <ProjectItem project={project} />
             </ul>
 
             <a href="">VER TODOS OS PROJETOS</a>

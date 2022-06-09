@@ -16,6 +16,8 @@ export const Container = styled.section`
         font-size: 3rem;
         color: var(--blue-600);
         font-weight: 900;
+
+        margin-top: 2rem;
         
     }
     
