@@ -3,7 +3,6 @@ import { Container, Content } from "./styles";
 
 export function Form() {
 
-    const [name, setName] = useState('')
 
     return (
         <Container>
@@ -24,12 +23,6 @@ export function Form() {
                         <input
                             type="text" name="" id=""
                             placeholder="Nome"
-                            value={name}
-                            onChange={(event) => {
-                                const value = event.target.value;
-
-                                setName(value)
-                            }}
                         />
                         <input type="email" name="" id=""
                             placeholder="Email"

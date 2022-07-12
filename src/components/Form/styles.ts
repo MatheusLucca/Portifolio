@@ -43,7 +43,7 @@ export const Content = styled.div`
         flex-direction: column;
         gap: 1rem;
         max-width: 100%;
-
+        margin-left: -3rem;
 
 
         input{
@@ -68,9 +68,17 @@ export const Content = styled.div`
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
+            @media (max-width: 768px) {
+                margin-top:1rem;
+                gap: 1rem;
+                width: 150%;
+            }
         }
         .subject{
             width: 100%;
+            @media (max-width: 768px) {
+                width: 150%;
+            }
         }
         textarea{
             height: 6rem;
@@ -80,7 +88,9 @@ export const Content = styled.div`
             padding: 1rem;
             font-size: 1.4rem;
             opacity: 0.8;
-
+            @media (max-width: 768px) {
+                width: 150%;
+            }
             transition: all 0.2s;
             &:focus{
                 outline: none;
@@ -89,7 +99,7 @@ export const Content = styled.div`
         }
         button{
             color: white;
-            
+            align-self: flex-end;
             font-size: 1.2rem;
 
             background-color: var(--blue-600);
@@ -100,7 +110,10 @@ export const Content = styled.div`
             border-radius: 1.5rem;
 
             transition: all 0.2s;
-
+            @media (max-width: 768px) {
+                align-self: flex-start;
+                width: 150%;
+            }
             &:hover{
                 filter: brightness(0.8);
             }
