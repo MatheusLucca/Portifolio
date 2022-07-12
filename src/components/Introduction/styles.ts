@@ -8,6 +8,7 @@ export const Container = styled.section`
     font-size: 2.5rem;
     
     @media (max-width: 768px) {
+        width: 100vh;
         font-size: 1.5rem;
     }
     .textandimage{
