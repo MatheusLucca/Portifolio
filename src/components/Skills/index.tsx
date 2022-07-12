@@ -28,7 +28,7 @@ export function Skills() {
             <h2>Habilidades</h2>
             <Carousel
                 swipeable={false}
-                draggable={false}
+                draggable={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}

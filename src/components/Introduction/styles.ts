@@ -6,7 +6,10 @@ export const Container = styled.section`
     height: calc(90vh - 5rem);
     margin-top: 8rem;
     font-size: 2.5rem;
-
+    
+    @media (max-width: 768px) {
+        font-size: 1.5rem;
+    }
     .textandimage{
         display: flex;
         justify-content: space-between;
@@ -15,6 +18,9 @@ export const Container = styled.section`
             font-size: 5rem;
             color: var(--blue-600);
             font-weight: 900;
+            @media (max-width: 768px) {
+                font-size: 4rem;
+            }
         }
     }
 `
@@ -34,9 +40,15 @@ export const Icons = styled.div`
         margin-left: 1rem;
 
         transition: filter 0.2s;
-        transition: width 0.2s ;
+        transition: all 0.2s ;
 
-        span{
+        @media (max-width: 768px) {
+            margin-left: 1rem;
+            padding: 1.2rem;
+        }
+
+        span{ 
+
             position: absolute;
             display: inline-block;
             top: 1.1rem;
@@ -51,11 +63,21 @@ export const Icons = styled.div`
         &:hover{
             background-color: var(--blue-600);
             width: 12rem;
-            
+
             span{
                 visibility: visible;
                 transition: visibility 90ms;
             }
+            @media (max-width: 768px) {
+                width: 4.8rem;
+                height: 4.9rem;
+                padding: 1.6rem;
+                span{
+                    visibility: hidden;
+                }
+            }   
+            
+
         }
         &:not(:hover){
             span{
