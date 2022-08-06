@@ -3,7 +3,7 @@ import me from '../../../public/assets/me.png'
 import { Container, Content, Text } from './style'
 export function About() {
     return (
-        <Container>
+        <Container id='about'>
             <Content>
                 <div>
                     <Image src={me} alt="Uma foto minha" width={400} height={400}  />

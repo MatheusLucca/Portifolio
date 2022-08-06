@@ -15,6 +15,8 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     > span{
+            margin-right: auto;
+
             font-size: 1.7rem;
             font-weight: 900;
             letter-spacing: 0.1rem;
@@ -26,9 +28,12 @@ export const Content = styled.div`
             
         }
     nav{
-        margin-left: auto;
+        
         height: 5rem;
 
+        @media (max-width: 768px){
+            display:none;
+        }
         ul{
             
             height: 5rem;
@@ -38,18 +43,14 @@ export const Content = styled.div`
             align-items: center;
             gap: 2rem;
             
-            li{
-                font-size: 1.2rem;
-                a{
-                    padding: 0 0.5rem;
-
-                    transition: filter 0.2s;
-
-                    &:hover{
-                        filter: brightness(0.7);
-                    }
-                }
-            }
+            
         }
     }
 `
+export const MenuHamburguer = styled.div`
+    display: none;
+    @media (max-width: 768px){
+        display: flex;
+    }
+    cursor: pointer;
+    `

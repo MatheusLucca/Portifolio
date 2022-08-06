@@ -8,11 +8,11 @@ import { Container } from "../components/home";
 export default function Home() {
   return (
     <Container>
-      <Introduction />
-      <About />
-      <Skills />
-      <ProjectList />
-      <Form />
+      <Introduction/>
+      <About/>
+      <Skills/>
+      <ProjectList/>
+      <Form/>
     </Container>
   )
 }

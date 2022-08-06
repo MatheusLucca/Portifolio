@@ -1,19 +1,24 @@
-import { Container, Content } from './style'
+import Link from 'next/link'
+import { Container, Content, MenuHamburguer } from './style'
+import {GiHamburgerMenu} from 'react-icons/gi'
+import { useState } from 'react'
+import { Menu } from '../Menu'
+import { Nav } from '../Nav'
+interface HeaderProps{
+    setIsMenuOpen: (isMenuOpen: boolean) => void;
+}
 
-export function Header() {
+export function Header({setIsMenuOpen}: HeaderProps) {
+
     return (
         <Container>
             <Content>
                 <span>Portifo<span>lio</span></span>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre mim</a></li>
-                        <li><a href="#">Habilidades</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </nav>
+                <Nav setIsMenuOpen={setIsMenuOpen}/>
+                <MenuHamburguer>
+                    <GiHamburgerMenu size={45} onClick={() => setIsMenuOpen(true)}/>
+                </MenuHamburguer>
+                
             </Content>
         </Container>
     )

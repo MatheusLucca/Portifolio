@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export function Introduction() {
     return (
-        <Container>
+        <Container id="home">
             <div className="textandimage">
                 <h1>Olá, meu nome é <br />
                     <span className="name">Matheus Lucca</span>

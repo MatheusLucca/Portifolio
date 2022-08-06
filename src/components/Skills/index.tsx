@@ -24,7 +24,7 @@ export function Skills() {
     };
 
     return (
-        <Container>
+        <Container id="skills">
             <h2>Habilidades</h2>
             <Carousel
                 swipeable={false}

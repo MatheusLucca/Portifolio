@@ -40,11 +40,13 @@ export const GlobalStyle = createGlobalStyle`
     @media (min-width: 720px) {
       font-size: 87.5%; // 14 px
     }
+    
   }
   body {
     background: var(--gray-900);
     -webkit-font-smoothing: antialiased;
     height: 100%;
+    
   }
   body, input, textarea, button{
     font-family: 'Roboto', sans-serif;
