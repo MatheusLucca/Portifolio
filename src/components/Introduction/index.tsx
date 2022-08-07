@@ -13,7 +13,7 @@ export function Introduction() {
                     <br />
 
                     <Typed
-                        className="teste"
+                        className="writeText"
                         strings={["Front-end Developer"]}
                         typeSpeed={150}
                         backDelay={200}
@@ -21,8 +21,9 @@ export function Introduction() {
                         loop
                     />
                 </h1>
-
-                <Image src={women} width='300' height='200' className="teste1" alt="Logo do react" />
+                <div className="image">
+                    <Image src={women} width='300' height='200'  alt="Logo do react" />
+                </div>
             </div>
 
             <Icons>

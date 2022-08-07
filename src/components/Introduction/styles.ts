@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    width: 100%;
+    width: 100vw;
     padding: 0 8rem;
     height: calc(90vh - 5rem);
     margin-top: 8rem;
     font-size: 2.5rem;
-    
+
     @media (max-width: 768px) {
-        width: 100vw;
         padding: 0 5rem;
         font-size: 1.5rem;
     }
@@ -21,16 +20,29 @@ export const Container = styled.section`
             color: var(--blue-600);
             font-weight: 900;
             @media (max-width: 768px) {
-                font-size: 4rem;
+                font-size: 3.7rem;
             }
         }
     }
+    .writeText{
+        display: inline-block;
+        height: 5rem;
+        @media (max-width: 768px) {
+            font-size: 2.2rem;
+        }
+    }
+   .image {
+        @media (max-width: 768px) {
+            display: none;
+        }
+   }
 `
 export const Icons = styled.div`
     display: flex;
     align-items: center;
     margin-top: 1rem;
     margin-left: -2.0rem;
+
     
     a{
         background-color: var(--gray-600);
