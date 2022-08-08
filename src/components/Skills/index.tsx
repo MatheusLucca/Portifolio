@@ -27,12 +27,12 @@ export function Skills() {
         <Container id="skills">
             <h2>Habilidades</h2>
             <Carousel
-                swipeable={false}
+                swipeable={true}
                 draggable={true}
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                autoPlay={false}
+                autoPlay={true}
                 shouldResetAutoplay={false}
                 keyBoardControl={true}
                 transitionDuration={1000}
