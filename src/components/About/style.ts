@@ -39,6 +39,9 @@ export const Content = styled.div`
        height: 460px;
        border-radius: 2rem;
     }
+    .img{
+        margin-top: 1rem;
+    }
     
     
 `
@@ -60,11 +63,11 @@ export const Text = styled.div`
         color: var(--blue-600);
         font-weight: 900;
         @media (max-width: 768px) {
+            align-self: center;
             font-size: 2.5rem;
             position: absolute;
-            top: -31rem;
-            left: 5rem;
-            margin-bottom: 2rem;
+            top: -26rem;
+            margin-left: -3rem;
         }
     }
     span{

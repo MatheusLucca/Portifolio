@@ -6,7 +6,7 @@ export function Form() {
 
     return (
         <Container id="form">
-            <h2>Entre em contato</h2>
+            <h2>Entre em Contato</h2>
             <Content>
                 <div>
                     <h3>Informações</h3>

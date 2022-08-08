@@ -5,7 +5,7 @@ export function About() {
     return (
         <Container id='about'>
             <Content>
-                <div>
+                <div className='img'>
                     <Image src={me} alt="Uma foto minha" width={400} height={400}  />
                 </div>
                 <Text>

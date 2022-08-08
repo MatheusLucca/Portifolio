@@ -19,7 +19,7 @@ export function ProjectItem({ project }: ProjectItemProps) {
                 <span className="description">- {project.type}</span>
             </div>
             <div className="image-container">
-                <Image src={project.imagem} alt={project.name} width="550" height="300" className="image" />
+                <Image src={project.imagem} alt={project.name} width="550" height="300" className="image"  />
             </div>
             <a href="">
                 Ver mais

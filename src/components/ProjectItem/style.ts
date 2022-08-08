@@ -3,50 +3,69 @@ import styled from 'styled-components'
 export const Container = styled.li`
     padding: 0 4rem;
     display: block;
-    width: 800px;
+    width: 100vw;
     height: 300px;
     position: relative;
     
     &.left{
+        @media (max-width: 768px) {
+            display:flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
         a{
-            right: 0;
+            left: 44rem;
             
         }
         .image-container{
             position: absolute;
             left: 3.5rem;
-
+            @media (max-width: 768px) {
+                position: relative;
+                left: -2.5rem;
+            }
         }
 
         .title-desc{
-            right: 6rem;
+            left: 37rem;
         }
 
         &:hover{
             .title-desc{
-                right: 2rem;
+                left: 42rem;
             }
         }
 
     }
     &.right{
         align-self: flex-end;
-
+        @media (max-width: 768px) {
+            align-self: flex-start;
+            display:flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
         .image-container{
             position: absolute;
             right: 3.5rem;
 
+            @media (max-width: 768px) {
+                position: relative;
+                left: -2.5rem;
+            }
         }
         a{
-            left: 0;
+            right: 43rem;
         }
         .title-desc{
-            left: 8rem;
+            right: 39rem;
         }
 
         &:hover{
             .title-desc{
-                left:4rem;
+                right:42rem;
             }
         }
     }
@@ -60,7 +79,9 @@ export const Container = styled.li`
         top: 3rem;
 
         letter-spacing: 0.1rem;
-
+        @media (max-width: 768px) {
+            position: static;
+        }
         strong{
             font-size: 2.5rem;
             font-weight: 900;
@@ -84,6 +105,11 @@ export const Container = styled.li`
         opacity: 0.5;
         
         transition: all 0.3s;
+
+        @media (max-width: 768px) {
+            position: static;
+            opacity: 1;
+        }
     }
     a{
         position: absolute;
@@ -96,6 +122,9 @@ export const Container = styled.li`
         align-items: center;
 
         transition: all 0.2s;
+        @media (max-width: 768px) {
+            position: static;
+        }
     }
 
     &:hover{
