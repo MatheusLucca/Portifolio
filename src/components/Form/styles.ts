@@ -101,7 +101,7 @@ export const Content = styled.div`
             color: white;
             align-self: flex-end;
             font-size: 1.2rem;
-
+            margin-bottom: 1rem;
             background-color: var(--blue-600);
             border: 0;
             height: 3rem;

@@ -13,8 +13,8 @@ export function About() {
                     <span>Campo Grande-MS, Brasil.</span>
                     <p>19 anos, técnico em informática, cursando sistemas de informação na Universidade Federal de Mato Grosso do Sul(UFMS).</p>
                     <p>Estou à procura da minha primeira experiência profissional como desenvolvedor estágiario no mercado de trabalho e disponível a trabalhos freelancer.</p>
-                    <p>Aqui você encontra alguns dos meus projetos, assim como no linkedin e github.</p>
-                    <a href=''>Currículo</a>
+                    <p>Aqui você encontra alguns dos meus projetos, assim como no linkedin e github.</p>       
+                    <a href=''>Currículo</a>         
                 </Text>
             </Content>
 

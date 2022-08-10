@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
 
     width: 100%;
-    height: calc(100vh - 5rem);
+    height: 550px;
     padding: 3rem 8rem;
     
     background: var(--gray-850);
@@ -41,6 +41,9 @@ export const Content = styled.div`
     }
     .img{
         margin-top: 1rem;
+        @media (max-width: 768px) {
+            order: 2;
+        }
     }
     
     
@@ -65,8 +68,6 @@ export const Text = styled.div`
         @media (max-width: 768px) {
             align-self: center;
             font-size: 2.5rem;
-            position: absolute;
-            top: -26rem;
             margin-left: -3rem;
         }
     }
@@ -100,6 +101,9 @@ export const Text = styled.div`
 
         &:hover{
             filter: brightness(0.8);
+        }
+        @media (max-width: 768px) {
+
         }
 
     }

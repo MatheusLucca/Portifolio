@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
     width: 100vw;
     padding: 3rem 8rem;
-    height: calc(100vh - 5rem);
+    height: 500px;
     h2{
         margin-top: 2rem;
         margin-bottom: 4rem;
