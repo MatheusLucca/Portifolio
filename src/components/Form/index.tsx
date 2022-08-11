@@ -19,7 +19,7 @@ export function Form() {
                 </div>
 
                 <form action="">
-                    <div>
+                    
                         <input
                             type="text" name="" id=""
                             placeholder="Nome"
@@ -27,7 +27,7 @@ export function Form() {
                         <input type="email" name="" id=""
                             placeholder="Email"
                         />
-                    </div>
+                    
                     <input type="text" name="" id="" className="subject"
                         placeholder="Assunto"
                     />

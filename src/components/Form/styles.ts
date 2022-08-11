@@ -23,7 +23,7 @@ export const Content = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     div{
         color: var(--blue-300);
         h3{
@@ -42,12 +42,12 @@ export const Content = styled.div`
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        max-width: 100%;
+        width: 70%;
         margin-left: -3rem;
 
 
         input{
-            width :30rem;
+            width :100%;
             height: 4rem;
             border-radius: 0.5rem;
             color: black;
@@ -63,21 +63,17 @@ export const Content = styled.div`
                 outline: none;
                 border: 2px solid var(--blue-300);
             }
+            @media (max-width: 768px) {
+                width: 150%;
+            }
         }
         div{
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
             @media (max-width: 768px) {
-                margin-top:1rem;
-                gap: 1rem;
-                width: 150%;
-            }
-        }
-        .subject{
-            width: 100%;
-            @media (max-width: 768px) {
-                width: 150%;
+                width: 100%;
+                flex-direction: column;
             }
         }
         textarea{
